@@ -1,0 +1,10 @@
+{
+  "item.timeclock.time_clock": "Relógio do Tempo",
+  "key.timeclock.rewind": "Voltar o tempo (segurar F)",
+  "key.timeclock.forward": "Avançar o tempo (segurar G)",
+  "key.timeclock.pause": "Pausar/continuar o tempo (R)",
+  "key.timeclock.freeze_all": "Congelar tudo, incluindo o jogador (Y)",
+  "key.categories.timeclock": "Relógio do Tempo",
+  "item.timeclock.red_time_clock": "Relógio do Tempo Vermelho",
+  "item.timeclock.blue_time_clock": "Relógio do Tempo Azul"
+}

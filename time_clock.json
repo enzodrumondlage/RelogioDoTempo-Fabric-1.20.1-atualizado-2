@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OGO",
+    "GCG",
+    "ODO"
+  ],
+  "key": {
+    "O": { "item": "minecraft:obsidian" },
+    "G": { "item": "minecraft:gold_block" },
+    "C": { "item": "minecraft:clock" },
+    "D": { "item": "minecraft:diamond" }
+  },
+  "result": {
+    "item": "timeclock:time_clock",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "com.enzo.timeclock.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "WorldTimeMixin",
+    "WorldTickMixin",
+    "WorldBlockChangeMixin",
+    "WorldBlockEntityTickMixin",
+    "ServerWorldTickMixin",
+    "WorldTickSchedulerMixin"
+  ],
+  "client": [
+    "KeyBindingAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

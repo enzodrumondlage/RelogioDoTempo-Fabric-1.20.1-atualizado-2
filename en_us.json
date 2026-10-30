@@ -1,0 +1,10 @@
+{
+  "item.timeclock.time_clock": "Time Clock",
+  "key.timeclock.rewind": "Rewind time (hold F)",
+  "key.timeclock.forward": "Fast-forward time (hold G)",
+  "key.timeclock.pause": "Pause/resume time (R)",
+  "key.timeclock.freeze_all": "Freeze everything including player (Y)",
+  "key.categories.timeclock": "Time Clock",
+  "item.timeclock.red_time_clock": "Red Time Clock",
+  "item.timeclock.blue_time_clock": "Blue Time Clock"
+}

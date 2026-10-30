@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    "MCM",
+    " M "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:redstone"
+    },
+    "C": {
+      "item": "timeclock:time_clock"
+    }
+  },
+  "result": {
+    "item": "timeclock:red_time_clock",
+    "count": 1
+  }
+}

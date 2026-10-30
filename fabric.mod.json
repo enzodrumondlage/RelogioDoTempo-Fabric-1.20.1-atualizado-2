@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "timeclock",
+  "version": "${version}",
+  "name": "Relógio do Tempo",
+  "description": "Pausa temporal e histórico experimental do mundo para Minecraft 1.20.1.",
+  "authors": ["Enzo"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.enzo.timeclock.TimeClockMod"],
+    "client": ["com.enzo.timeclock.client.TimeClockClient"]
+  },
+  "mixins": ["timeclock.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

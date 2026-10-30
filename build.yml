@@ -1,0 +1,33 @@
+name: Build Relogio do Tempo
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o codigo
+        uses: actions/checkout@v4
+      - name: Instalar Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Preparar Gradle 8.7
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.7'
+      - name: Compilar o mod
+        run: gradle build
+      - name: Publicar o JAR compilado
+        uses: actions/upload-artifact@v4
+        with:
+          name: relogio-do-tempo-build
+          path: build/libs/*.jar
+          if-no-files-found: error
+          retention-days: 14
